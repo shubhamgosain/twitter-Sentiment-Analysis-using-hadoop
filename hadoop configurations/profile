@@ -1,0 +1,31 @@
+#HADOOP VARIABLES START
+
+    export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+    export HADOOP_INSTALL=/usr/local/hadoop
+
+    export PATH=$PATH:$HADOOP_INSTALL/bin:HADOOP_INSTALL/sbin
+
+    export HADOOP_MAPRED_HOME=$HADOOP_INSTALL
+
+    export HADOOP_COMMON_HOME=$HADOOP_INSTALL
+
+    export HADOOP_HDFS_HOME=$HADOOP_INSTALL
+
+    export YARN_HOME=$HADOOP_INSTALL/yarn
+
+    export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_INSTALL/lib/native
+
+    export HADOOP_OPTS="-Djava.library.path=$HADOOP_INSTALL/lib/native"
+
+#HADOOP VARIABLES END
+
+export HIVE_HOME=/usr/local/hadoop/hive
+export HCAT_HOME=$HIVE_HOME/hcatalog
+export HIVE_CONF_DIR=$HIVE_HOME/conf
+export HIVE_CLASS_PATH=$HIVE_CONF_DIR
+export HIVE_AUX_JARS_PATH=/usr/local/hadoop/hive/lib
+export CLASSPATH=$CLASSPATH:/usr/local/Hadoop/lib/*:.
+export CLASSPATH=$CLASSPATH:/usr/local/hive/lib/*:.
+export PATH=$PATH:$HIVE_HOME/bin:$HCAT_HOME/bin
+
