@@ -1,5 +1,5 @@
-# twitter-Sentiment-Analysis-using-hadoop
-A Project where one can fetch and read tweets and show the analysis like who is most influential and also see what people of different countries think about a current trending topic and show their polarity
+# Twitter Sentiment Analysis Using Hadoop
+A Project where one can fetch and analyze tweets to show who those which are influential and also see what people of different countries think about a current trending topic and show their polarity.
 
 
 **PREREQUISITES**
